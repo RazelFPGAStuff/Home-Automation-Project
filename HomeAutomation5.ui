@@ -1,0 +1,2911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowOpacity">
+   <double>5.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame_main">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1031</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+background-color: rgb(255, 255, 255);
+}
+QStackedWidget
+{
+background-color: rgb(249, 249, 249);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>781</width>
+       <height>351</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackedWidget
+
+{
+
+	background-color: rgb(255, 255, 255);
+
+}</string>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="stackedWidgetPage1">
+      <widget class="QStackedWidget" name="stackedWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>781</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame
+{
+background-color: rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="stackedWidgetPage1_2" native="true">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>0</y>
+           <width>301</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="title">
+          <string>LIVING ROOM</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_5">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QToolButton" name="toolButton_21">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 1</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_22">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 4</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="verticalLayoutWidget_6">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QToolButton" name="toolButton_23">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 2</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_24">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 5</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="verticalLayoutWidget_7">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QToolButton" name="toolButton_25">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 3</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_26">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 6</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>0</y>
+           <width>201</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="title">
+          <string>DINING ROOM</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_11">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_11">
+           <item>
+            <widget class="QToolButton" name="toolButton_33">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 7</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_34">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 9</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="verticalLayoutWidget_12">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_12">
+           <item>
+            <widget class="QToolButton" name="toolButton_35">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 8</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_36">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 10</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="geometry">
+          <rect>
+           <x>530</x>
+           <y>0</y>
+           <width>101</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="title">
+          <string>KITCHEN</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_13">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_13">
+           <item>
+            <widget class="QToolButton" name="toolButton_37">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 11</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_38">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 12</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_11">
+         <property name="geometry">
+          <rect>
+           <x>640</x>
+           <y>0</y>
+           <width>101</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="title">
+          <string>T and B</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_23">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_23">
+           <item>
+            <widget class="QToolButton" name="toolButton_57">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 13</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_58">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 14</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="stackedWidgetPage2_2" native="true">
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>201</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="title">
+          <string> MASTER BEDROOM </string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_15">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_15">
+           <item>
+            <widget class="QToolButton" name="toolButton_41">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 1</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_42">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 2</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="verticalLayoutWidget_16">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_16">
+           <item>
+            <widget class="QToolButton" name="toolButton_43">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 3</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_44">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 4</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>0</y>
+           <width>101</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="title">
+          <string>BEDROOM 1</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_17">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_17">
+           <item>
+            <widget class="QToolButton" name="toolButton_45">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 5</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_46">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 6</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_7">
+         <property name="geometry">
+          <rect>
+           <x>490</x>
+           <y>0</y>
+           <width>101</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="title">
+          <string>HOBBY ROOM</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_18">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_18">
+           <item>
+            <widget class="QToolButton" name="toolButton_47">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 7</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_48">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 8</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_8">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>40</y>
+            <width>101</width>
+            <height>231</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Agency FB</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>HOBBY ROOM</string>
+          </property>
+          <widget class="QWidget" name="verticalLayoutWidget_20">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>81</width>
+             <height>202</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_20">
+            <item>
+             <widget class="QToolButton" name="toolButton_51">
+              <property name="font">
+               <font>
+                <family>Agency FB</family>
+                <pointsize>10</pointsize>
+                <weight>8</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+              </property>
+              <property name="text">
+               <string>Light 7</string>
+              </property>
+              <property name="icon">
+               <iconset resource="images_new/try.qrc">
+                <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>70</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButton_52">
+              <property name="styleSheet">
+               <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+              </property>
+              <property name="text">
+               <string>Light 8</string>
+              </property>
+              <property name="icon">
+               <iconset resource="images_new/try.qrc">
+                <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>70</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_9">
+         <property name="geometry">
+          <rect>
+           <x>640</x>
+           <y>0</y>
+           <width>101</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="title">
+          <string> T and B</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_21">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_21">
+           <item>
+            <widget class="QToolButton" name="toolButton_53">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 9</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_54">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 10</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_10">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>40</y>
+            <width>101</width>
+            <height>231</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Agency FB</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>HOBBY ROOM</string>
+          </property>
+          <widget class="QWidget" name="verticalLayoutWidget_22">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>81</width>
+             <height>202</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_22">
+            <item>
+             <widget class="QToolButton" name="toolButton_55">
+              <property name="font">
+               <font>
+                <family>Agency FB</family>
+                <pointsize>10</pointsize>
+                <weight>8</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+              </property>
+              <property name="text">
+               <string>Light 7</string>
+              </property>
+              <property name="icon">
+               <iconset resource="images_new/try.qrc">
+                <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>70</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButton_56">
+              <property name="styleSheet">
+               <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+              </property>
+              <property name="text">
+               <string>Light 8</string>
+              </property>
+              <property name="icon">
+               <iconset resource="images_new/try.qrc">
+                <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>70</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="stackedWidgetPage3_2" native="true">
+        <widget class="QGroupBox" name="groupBox_12">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>0</y>
+           <width>101</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Agency FB</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="title">
+          <string>BEDROOM 2</string>
+         </property>
+         <widget class="QWidget" name="verticalLayoutWidget_24">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>81</width>
+            <height>202</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_24">
+           <item>
+            <widget class="QToolButton" name="toolButton_59">
+             <property name="font">
+              <font>
+               <family>Agency FB</family>
+               <pointsize>10</pointsize>
+               <weight>8</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 65 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 1</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_on.png</normaloff>:/newPrefix/bulb_on.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_60">
+             <property name="styleSheet">
+              <string notr="true">QToolButton
+
+{
+font: 75 10pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+             </property>
+             <property name="text">
+              <string>Light 2</string>
+             </property>
+             <property name="icon">
+              <iconset resource="images_new/try.qrc">
+               <normaloff>:/newPrefix/bulb_off.png</normaloff>:/newPrefix/bulb_off.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>70</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextUnderIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="stackedWidgetPage4" native="true"/>
+      </widget>
+      <widget class="QToolButton" name="toolButton">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>101</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>GROUND FLOOR</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/level1.jpg</normaloff>:/newPrefix/level1.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_10">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>10</y>
+         <width>101</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>SECOND FLOOR</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/level2.jpg</normaloff>:/newPrefix/level2.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_11">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>10</y>
+         <width>101</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>ATTIC</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/level3.jpg</normaloff>:/newPrefix/level3.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_12">
+       <property name="geometry">
+        <rect>
+         <x>590</x>
+         <y>10</y>
+         <width>101</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>GARAGE/GARDEN</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/garage.jpg</normaloff>:/newPrefix/garage.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>80</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>731</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+      </widget>
+      <zorder>groupBox_4</zorder>
+      <zorder>stackedWidget</zorder>
+      <zorder>toolButton</zorder>
+      <zorder>toolButton_10</zorder>
+      <zorder>toolButton_11</zorder>
+      <zorder>toolButton_12</zorder>
+     </widget>
+     <widget class="QWidget" name="stackedWidgetPage2"/>
+     <widget class="QWidget" name="stackedWidgetPage3">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>60</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>25</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>30.0 °C</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(181, 181, 181);</string>
+       </property>
+       <property name="text">
+        <string>  OUTSIDE TEMPERATURE</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>20</y>
+         <width>251</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(181, 181, 181);</string>
+       </property>
+       <property name="text">
+        <string>  INSIDE TEMPERATURE</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>560</x>
+         <y>50</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>25</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>20.5 °C</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_13">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>391</width>
+         <height>211</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>CLIMATE CONTROL</string>
+       </property>
+       <widget class="QDial" name="dial">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>271</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <number>15</number>
+        </property>
+        <property name="maximum">
+         <number>30</number>
+        </property>
+        <property name="invertedAppearance">
+         <bool>false</bool>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="notchesVisible">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="lcdNumber">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>120</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="digitCount">
+         <number>2</number>
+        </property>
+        <property name="intValue" stdset="0">
+         <number>18</number>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_14">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>130</y>
+         <width>311</width>
+         <height>211</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>TODAY IS</string>
+       </property>
+       <widget class="QLCDNumber" name="lcdNumber_2">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>90</y>
+          <width>81</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(138, 138, 138);</string>
+        </property>
+        <property name="digitCount">
+         <number>2</number>
+        </property>
+        <property name="intValue" stdset="0">
+         <number>12</number>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="lcdNumber_3">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>90</y>
+          <width>81</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(138, 138, 138);</string>
+        </property>
+        <property name="digitCount">
+         <number>2</number>
+        </property>
+        <property name="intValue" stdset="0">
+         <number>59</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>100</y>
+          <width>21</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>30</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(138, 138, 138);</string>
+        </property>
+        <property name="text">
+         <string>:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>FRIDAY   Nov 24, 2017</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>771</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+background-color: rgb(249, 249, 249);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>0</y>
+        <width>801</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame 
+{
+
+	background-color: rgb(255, 255, 255);
+}
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QToolButton" name="toolButton_2">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>10</y>
+         <width>81</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>12</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+	background-color: transparent;
+border: none;
+
+}
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>HOME</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/home2.jpg</normaloff>:/newPrefix/home2.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_4">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>10</y>
+         <width>81</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>12</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>CONTROLS</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/groundfloor.jpg</normaloff>:/newPrefix/groundfloor.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_5">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>10</y>
+         <width>81</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>12</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>SETTINGS</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/settings.jpg</normaloff>:/newPrefix/settings.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_6">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>110</y>
+         <width>81</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>12</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>SETTINGS</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/settings.jpg</normaloff>:/newPrefix/settings.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_7">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>81</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>12</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>TIPS</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/tips.png</normaloff>:/newPrefix/tips.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_8">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>10</y>
+         <width>81</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>12</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>STOCKS</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/stocks.jpg</normaloff>:/newPrefix/stocks.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>81</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>12</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+
+}
+
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>LOGIN</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/lock.jpg</normaloff>:/newPrefix/lock.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_3">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>10</y>
+         <width>81</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>12</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton
+
+{
+font: 75 12pt &quot;Agency FB&quot;;
+	color: rgb(0, 0, 0);
+
+
+	background-color:transparent;
+border:none;
+
+}
+QToolButton:checked, QToolButton:pressed {
+background-color:rgb(193,210,238);
+border: 1px solid rgb(60,127,177)
+}
+QToolButton:hover {
+background-color(224,232,246)
+}</string>
+       </property>
+       <property name="text">
+        <string>WEATHER</string>
+       </property>
+       <property name="icon">
+        <iconset resource="images_new/try.qrc">
+         <normaloff>:/newPrefix/weather.jpg</normaloff>:/newPrefix/weather.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="images_new/try.qrc"/>
+ </resources>
+ <connections/>
+</ui>
