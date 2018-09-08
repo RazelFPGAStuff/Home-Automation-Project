@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>lock.jpg</file>
+    <file>settings.jpg</file>
+    <file>weather.jpg</file>
+    <file>lightOff.jpg</file>
+    <file>demobg_resize.png</file>
+    <file>demobg_orig.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>homeautomation.jpg</file>
+    <file>tips.png</file>
+    <file>stocks.jpg</file>
+    <file>groundfloor.jpg</file>
+    <file>secondfloor.jpg</file>
+    <file>attic.jpg</file>
+    <file>middle_pic.PNG</file>
+    <file>home2.jpg</file>
+    <file>white_bg.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>bulb_off.png</file>
+    <file>bulb_on.png</file>
+    <file>level1.jpg</file>
+    <file>level2.jpg</file>
+    <file>level3.jpg</file>
+    <file>garage.jpg</file>
+  </qresource>
+</RCC>
